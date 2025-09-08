@@ -49,7 +49,6 @@ async function checkWeather(city) {
   }
 }
 
-
 checkWeather("London");
 
 searchBtn.addEventListener("click", () => {
@@ -61,7 +60,6 @@ searchBox.addEventListener("keyup", (e) => {
     checkWeather(searchBox.value);
   }
 });
-
 
 document.querySelectorAll("#cities .city").forEach(cityDiv => {
   cityDiv.addEventListener("click", () => {

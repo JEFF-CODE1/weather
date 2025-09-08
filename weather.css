@@ -1,11 +1,9 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 header, footer {
   background-color: #000;
@@ -38,7 +36,6 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
 }
-
 
 .card {
   width: 90%;
@@ -89,7 +86,6 @@ nav ul li a {
   display: none;
   text-align: left;
 }
-
 
 .weather-icon {
   width: 170px;
